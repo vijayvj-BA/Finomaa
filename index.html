@@ -93,31 +93,7 @@
             </div>
           </a>
 
-          <!-- Desktop Nav -->
-          <!-- <div class="hidden items-center gap-8 md:flex">
-            <a href="#home" class="text-sm text-white/80 hover:text-white transition-colors focus-outline--inverted">Home</a>
-            <a href="#services" class="text-sm text-white/80 hover:text-white transition-colors focus-outline--inverted">Services</a>
-            <a href="#features" class="text-sm text-white/80 hover:text-white transition-colors focus-outline--inverted">Features</a>
-            <a href="#how" class="text-sm text-white/80 hover:text-white transition-colors focus-outline--inverted">How It Works</a>
-            <a href="#contact" class="text-sm text-white/80 hover:text-white transition-colors focus-outline--inverted">Contact</a>
-            <a href="#cta" class="inline-flex items-center rounded-full bg-white px-4 py-2 text-sm font-medium text-black shadow-sm transition hover:-translate-y-0.5 hover:opacity-90 focus-outline--inverted">Get Started</a>
-          </div> -->
-
-          <!-- Mobile Nav -->
-          <!-- <details class="md:hidden text-white">
-            <summary class="cursor-pointer rounded-full border border-white/20 px-3 py-1 text-sm hover:bg-white/10 focus-outline--inverted">Menu</summary>
-            <div class="mt-3 rounded-lg border border-white/10 bg-black/90 p-3 backdrop-blur">
-              <div class="flex flex-col">
-                <a href="#home" class="px-2 py-2 text-sm text-white/90 hover:text-white focus-outline--inverted">Home</a>
-                <a href="#services" class="px-2 py-2 text-sm text-white/90 hover:text-white focus-outline--inverted">Services</a>
-                <a href="#features" class="px-2 py-2 text-sm text-white/90 hover:text-white focus-outline--inverted">Features</a>
-                <a href="#how" class="px-2 py-2 text-sm text-white/90 hover:text-white focus-outline--inverted">How It Works</a>
-                <a href="#contact" class="px-2 py-2 text-sm text-white/90 hover:text-white focus-outline--inverted">Contact</a>
-                <a href="#cta" class="mt-2 inline-flex items-center justify-center rounded-md bg-white px-3 py-2 text-sm font-medium text-black transition hover:opacity-90 focus-outline--inverted">Get Started</a>
-              </div>
-            </div>
-          </details> -->
-
+         
 
 
 
@@ -143,9 +119,7 @@
     <span class="block w-full h-0.5 bg-white transition-all"></span>
   </button>
 
-  <!-- Mobile Drawer Menu -->
-  <!-- <div id="drawer"
-    class="fixed top-[77px] right-0 w-2/3 max-w-xs bg-black backdrop-blur border-l border-white/10 p-4  transform translate-x-full transition-transform duration-300 md:hidden"> -->
+ 
     <div id="drawer"
   class="fixed top-[80px] right-0 w-2/3 max-w-xs bg-black backdrop-blur border-l border-white/10 p-4 pt-6 transform translate-x-full transition-transform duration-300 md:hidden rounded-bl-2xl">
 
@@ -178,61 +152,11 @@
 
   menuBtn.addEventListener('click', () => toggleMenu());
 
-  // Close drawer automatically on scroll
+  
   window.addEventListener('scroll', () => {
     if (open) toggleMenu(true);
   });
 </script>
-
-
-<!-- 
-         <nav class="relative bg-black text-white px-4 py-3 flex items-center justify-between">
-  <h1 class="text-lg font-bold"></h1>
-
- 
-  <button id="menu-btn" class="relative z-50 flex flex-col justify-between w-6 h-5 focus:outline-none md:hidden">
-    <span class="block w-full h-0.5 bg-white transition-all"></span>
-    <span class="block w-full h-0.5 bg-white transition-all"></span>
-    <span class="block w-full h-0.5 bg-white transition-all"></span>
-  </button>
-
-  
-  <div id="drawer"
-    class="fixed top-[64px] right-0 w-2/3 max-w-xs bg-black/90 backdrop-blur border-l border-white/10 p-4 transform translate-x-full transition-transform duration-300 md:hidden">
-    <div class="flex flex-col text-center space-y-3">
-      <a href="#home" class="py-2 border-b border-white/20 hover:text-white">Home</a>
-      <a href="#services" class="py-2 border-b border-white/20 hover:text-white">Services</a>
-      <a href="#features" class="py-2 border-b border-white/20 hover:text-white">Features</a>
-      <a href="#how" class="py-2 border-b border-white/20 hover:text-white">How It Works</a>
-      <a href="#contact" class="py-2 border-b border-white/20 hover:text-white">Contact</a>
-      <a href="#cta" class="mt-3 inline-block bg-white text-black font-medium px-4 py-2 rounded-md hover:opacity-90">Get Started</a>
-    </div>
-  </div>
-</nav>
-
-<script>
-  const menuBtn = document.getElementById('menu-btn');
-  const drawer = document.getElementById('drawer');
-  let open = false;
-
-  const bars = menuBtn.querySelectorAll('span');
-
-  function toggleMenu(forceClose = false) {
-    open = forceClose ? false : !open;
-    drawer.style.transform = open ? 'translateX(0)' : 'translateX(100%)';
-
-    bars[0].style.transform = open ? 'rotate(45deg) translateY(8px)' : '';
-    bars[1].style.opacity = open ? '0' : '1';
-    bars[2].style.transform = open ? 'rotate(-45deg) translateY(-8px)' : '';
-  }
-
-  menuBtn.addEventListener('click', () => toggleMenu());
-
-  
-  window.addEventListener('scroll', () => {
-    if (open) toggleMenu(true);
-  });
-</script> -->
 
 
 
@@ -255,10 +179,11 @@
       <div class="reveal">
        
         <h1 class="font-serif text-4xl sm:text-5xl md:text-6xl leading-tight tracking-tight text-black">
-          Quietly confident finance for modern professionals.
+          Loans for Doctors & Engineers -  0 % Processing Fee          <!-- Quietly confident finance for modern professionals. -->
         </h1>
         <p class="mt-6 max-w-xl text-base text-gray-700 md:text-lg">
-          Quick, transparent financial support—without the noise. Access short-term credit with clarity, repay with ease, and move forward with confidence.
+          Empowering professionals with quick,transparent,and hassle-free financial support-access short-term credit with clarity,repay with ease,move forward with confidence,with no hidden charges or processing cost.
+          <!-- Quick, transparent financial support—without the noise. Access short-term credit with clarity, repay with ease, and move forward with confidence. -->
         </p>
         <div class="mt-8 flex flex-wrap items-center gap-4">
           <a href="#cta" class="inline-flex items-center rounded-full bg-black px-5 py-2.5 text-sm font-medium text-white shadow-sm transition hover:-translate-y-0.5 hover:opacity-90 focus-outline--inverted">Get Started</a>
