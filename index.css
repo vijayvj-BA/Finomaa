@@ -323,6 +323,7 @@ body {
   padding: 16px;
 }
 
+
 /* Larger screens — enhance hero layout */
 @media (min-width: 900px) {
   .hero-wrap {
